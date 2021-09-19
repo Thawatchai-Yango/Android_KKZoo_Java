@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mammal_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.main.activity.KhonKaenZoo.SquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageview_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7C8BC34A"
+                android:scaleType="centerCrop" />
+        </com.main.activity.KhonKaenZoo.SquareFrameLayout>
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_border_settings"
+            android:padding="20dp"
+            android:textSize="30sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:theme="@style/Theme.AppCompat" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/bullFrog_button"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:src="@drawable/bullfrog"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="10dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/poisonFrog_button"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:src="@drawable/poisonfrog"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="10dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/amazonFrog_button"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:src="@drawable/amazonfrog"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="10dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/surinamToad_button"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:src="@drawable/surinamtoad"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="10dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/giantToad_button"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:src="@drawable/gianttoad"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="10dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+</ScrollView>
