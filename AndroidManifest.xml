@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.main.activity.KhonKaenZoo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="Main_menu_bar.MainBroActivity" />
+        <activity android:name="Main_menu_bar.MainInfoActivity" />
+        <activity android:name="Main_menu_bar.MainMapActivity" />
+        <activity android:name="Main_menu_bar.MainPromoActivity" />
+        <activity android:name="Main_menu_bar.MainPriceActivity" />
+        <activity android:name="RecommendedPlaces_bar.RecomSkywalkActivity" />
+        <activity android:name="RecommendedPlaces_bar.RecomDeerActivity" />
+        <activity android:name="RecommendedPlaces_bar.RecomAnimalhiActivity" />
+        <activity android:name="RecommendedPlaces_bar.RecomWaterparkActivity" />
+        <activity android:name="AnimalList_bar.mammal.Ani_hogdeer_activity" />
+        <activity android:name="AnimalList_bar.mammal.Ani_nyala_activity" />
+        <activity android:name="AnimalList_bar.mammal.Ani_whiteLion_activity" />
+        <activity android:name="AnimalList_bar.mammal.Ani_urang_activity" />
+        <activity android:name="AnimalList_bar.mammal.Ani_elepha_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Ani_treeViper_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Ani_crocodile_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Ani_python_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Ani_tortois_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Ani_turtle_activity" />
+        <activity android:name="AnimalList_bar.poultry.Ani_cockatoo_activity" />
+        <activity android:name="AnimalList_bar.poultry.Ani_chattering_activity" />
+        <activity android:name="AnimalList_bar.poultry.Ani_flamingo_activity" />
+        <activity android:name="AnimalList_bar.poultry.Ani_pigeon_activity" />
+        <activity android:name="AnimalList_bar.poultry.Ani_greyPelican_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Ani_bullfrog_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Ani_poisonfrog_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Ani_amazonfrog_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Ani_sutinamtoad_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Ani_gianttoad_activity" />
+
+        <activity
+            android:name=".Splash_activity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".MainActivity"/>
+        <activity android:name="Main_menu_bar.MainPageActivity" />
+        <activity android:name="RecommendedPlaces_bar.RecommendPlacesMainActivity" />
+        <activity android:name="Timingshows_bar.TimingShowMainAcitivity" />
+        <activity android:name="Ticket_menu_bar.TicketBookMainAcitivity" />
+        <activity android:name="AnimalList_bar.mammal.Animal_mammal_main_activity" />
+        <activity android:name="AnimalList_bar.reptiles.Animal_retiles_main_activity" />
+        <activity android:name="AnimalList_bar.poultry.Animal_poutry_main_activity" />
+        <activity android:name="AnimalList_bar.aquatic.Animal_aquatic_main_activity" />
+        <activity android:name="AnimalList_bar.amphibians.Animal_amphibians_main_activity" />
+        <activity android:name="AnimalList_bar.invertebrate.Animal_invertebrate_main_activity" />
+        <activity android:name="Media_photo_bar.MediaPhotoMainAcitivity" />
+        <activity android:name="Media_video_bar.MediaVideoMainAcitivity" />
+        <activity android:name="Media_ebook_bar.MediaEbookMainAcitivity" />
+        <activity android:name="Zoo_infomation_bar.ZooInfomationMainAcitivity" />
+        <activity android:name="developer_bar.DeveloperMainAcitivity" />
+    </application>
+
+</manifest>
